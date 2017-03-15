@@ -1,0 +1,14 @@
+﻿I-vigil.vshost.exe	Information	0	01/03/2017 12:12:42 : Starting Ivigil Client Application.....DateTime :03/01/2017 12:12:42.589 PM	2017-03-01 06:42:42Z	2105590089625
+I-vigil.vshost.exe	Information	0	01/03/2017 12:12:46 : Server TimeZone..=Central Standard Time	2017-03-01 06:42:46Z	2105601838930
+I-vigil.vshost.exe	Information	0	01/03/2017 12:12:57 : Initializing CameraControl StartTime.. DateTime :03/01/2017 12:12:57.784 PM	2017-03-01 06:42:57Z	2105635914727
+I-vigil.vshost.exe	Information	0	01/03/2017 12:12:57 : Initializing CameraControl EndTime.. DateTime :03/01/2017 12:12:57.800 PM	2017-03-01 06:42:57Z	2105635964207
+I-vigil.vshost.exe	Information	0	01/03/2017 12:12:58 : Initializing CameraControl StartTime.. DateTime :03/01/2017 12:12:58.385 PM	2017-03-01 06:42:58Z	2105637730030
+I-vigil.vshost.exe	Information	0	01/03/2017 12:12:58 : Initializing CameraControl EndTime.. DateTime :03/01/2017 12:12:58.389 PM	2017-03-01 06:42:58Z	2105637745479
+I-vigil.vshost.exe	Information	0	01/03/2017 12:13:19 : Calendar Event for Luxury Sport Auto - 7325 SW Bonita Rd
+Subject - Planned Site Activity From Console - [28-02-2017 18:58 - 01-03-2017 20:58] EventStatus - Console Event, isDisabled - True	2017-03-01 06:43:19Z	2105702751975
+I-vigil.vshost.exe	Information	0	01/03/2017 12:13:19 : Calendar Event for Oncor - Farmers Branch
+Subject - Site has been disarmed for 125 minutes - [01-03-2017 00:41 - 01-03-2017 02:46] EventStatus - Console Event, isDisabled - True	2017-03-01 06:43:19Z	2105702755871
+I-vigil.vshost.exe	Information	0	01/03/2017 12:20:38 : CameraId - Camera25, eventTime - 2017-02-28 23:50:30	2017-03-01 06:50:38Z	2107026210777
+I-vigil.vshost.exe	Information	0	01/03/2017 12:21:06 : Escalate Event(Missed Escalation..	2017-03-01 06:51:06Z	2107112282646
+I-vigil.vshost.exe	Information	0	01/03/2017 12:21:06 : [Camera25] - Current Event - 28/02/2017 23:50:30, Allow Auto Escalation = False	2017-03-01 06:51:06Z	2107112315158
+I-vigil.vshost.exe	Information	0	01/03/2017 12:27:23 : CameraId - Camera25, eventTime - 2017-02-28 23:57:20	2017-03-01 06:57:23Z	2108249361881

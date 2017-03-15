@@ -1,0 +1,16 @@
+﻿I-vigil.vshost.exe	Information	0	03/03/2017 17:35:01 : Starting Ivigil Client Application.....DateTime :03/03/2017 05:35:01.665 PM	2017-03-03 12:05:01Z	2685953103855
+I-vigil.vshost.exe	Information	0	03/03/2017 17:35:06 : Server TimeZone..=Central Standard Time	2017-03-03 12:05:06Z	2685966239167
+I-vigil.vshost.exe	Information	0	03/03/2017 17:35:17 : Initializing CameraControl StartTime.. DateTime :03/03/2017 05:35:17.202 PM	2017-03-03 12:05:17Z	2685999335093
+I-vigil.vshost.exe	Information	0	03/03/2017 17:35:17 : Initializing CameraControl EndTime.. DateTime :03/03/2017 05:35:17.218 PM	2017-03-03 12:05:17Z	2685999381283
+I-vigil.vshost.exe	Information	0	03/03/2017 17:35:17 : Initializing CameraControl StartTime.. DateTime :03/03/2017 05:35:17.824 PM	2017-03-03 12:05:17Z	2686001211634
+I-vigil.vshost.exe	Information	0	03/03/2017 17:35:17 : Initializing CameraControl EndTime.. DateTime :03/03/2017 05:35:17.828 PM	2017-03-03 12:05:17Z	2686001225814
+I-vigil.vshost.exe	Information	0	03/03/2017 17:35:39 : Calendar Event for BRADSHAW AUTOMOTIVE F138
+Subject - Police En Route - [03-03-2017 01:38 - 03-03-2017 02:38] EventStatus - Police En Route, isDisabled - False	2017-03-03 12:05:39Z	2686066626611
+I-vigil.vshost.exe	Information	0	03/03/2017 17:35:39 : Calendar Event for Luxury Sport Auto - 7325 SW Bonita Rd
+Subject - Planned Site Activity From Console - [02-03-2017 18:55 - 03-03-2017 20:55] EventStatus - Console Event, isDisabled - True	2017-03-03 12:05:39Z	2686066630416
+I-vigil.vshost.exe	Information	0	03/03/2017 17:37:15 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-03 12:07:15Z	2686355318040
+I-vigil.vshost.exe	Information	0	03/03/2017 17:41:50 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-03 12:11:50Z	2687186287191
+I-vigil.vshost.exe	Information	0	03/03/2017 17:48:37 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-03 12:18:37Z	2688417594359

@@ -1,0 +1,486 @@
+﻿I-vigil.vshost.exe	Information	0	09/03/2017 11:19:23 : Starting Ivigil Client Application.....DateTime :03/09/2017 11:19:23.884 AM	2017-03-09 05:49:23Z	4183657423086
+I-vigil.vshost.exe	Information	0	09/03/2017 11:19:28 : Server TimeZone..=Central Standard Time	2017-03-09 05:49:28Z	4183669943169
+I-vigil.vshost.exe	Information	0	09/03/2017 11:19:39 : Initializing CameraControl StartTime.. DateTime :03/09/2017 11:19:39.224 AM	2017-03-09 05:49:39Z	4183703703971
+I-vigil.vshost.exe	Information	0	09/03/2017 11:19:39 : Initializing CameraControl EndTime.. DateTime :03/09/2017 11:19:39.244 AM	2017-03-09 05:49:39Z	4183703761957
+I-vigil.vshost.exe	Information	0	09/03/2017 11:19:39 : Initializing CameraControl StartTime.. DateTime :03/09/2017 11:19:39.826 AM	2017-03-09 05:49:39Z	4183705518130
+I-vigil.vshost.exe	Information	0	09/03/2017 11:19:39 : Initializing CameraControl EndTime.. DateTime :03/09/2017 11:19:39.831 AM	2017-03-09 05:49:39Z	4183705533286
+I-vigil.vshost.exe	Information	0	09/03/2017 11:20:01 : Calendar Event for Pro-Vigil Houston Office houston-branch
+Subject - Site has been disarmed for 720 minutes - [08-03-2017 12:54 - 09-03-2017 00:54] EventStatus - Console Event, isDisabled - True	2017-03-09 05:50:01Z	4183770413629
+I-vigil.vshost.exe	Information	0	09/03/2017 11:20:30 : CameraId - Camera25, eventTime - 2017-03-08 22:48:46	2017-03-09 05:50:30Z	4183859485999
+I-vigil.vshost.exe	Information	0	09/03/2017 11:27:36 : 
+Server stack trace: 
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request)
+   at I_vigil.ProvigilService.ProvigilServiceClient.I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7962
+   at I_vigil.ProvigilService.ProvigilServiceClient.getOutputStatus(String alarmId) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7968
+   at I_vigil.Services.IvigilService.GetOutputStatus(String alarmName) in D:\work\I-vigil\I-vigil\Services\IvigilService.cs:line 629
+   at I_vigil.MainWindow.SyncOutputStatus() in D:\work\I-vigil\I-vigil\Main.xaml.cs:line 569	2017-03-09 05:57:50Z	4185187748896
+I-vigil.vshost.exe	Information	0	09/03/2017 11:36:19 : 
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request)
+   at I_vigil.ProvigilService.ProvigilServiceClient.I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7962
+   at I_vigil.ProvigilService.ProvigilServiceClient.getOutputStatus(String alarmId) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7968
+   at I_vigil.Services.IvigilService.GetOutputStatus(String alarmName) in D:\work\I-vigil\I-vigil\Services\IvigilService.cs:line 629
+   at I_vigil.MainWindow.SyncOutputStatus() in D:\work\I-vigil\I-vigil\Main.xaml.cs:line 569	2017-03-09 06:06:19Z	4186723647366
+I-vigil.vshost.exe	Information	0	09/03/2017 11:36:30 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 06:06:30Z	4186756776901
+I-vigil.vshost.exe	Information	0	09/03/2017 11:36:31 : Calendar Event for Pro-Vigil Houston Office houston-branch
+Subject - Site has been disarmed for 720 minutes - [08-03-2017 12:54 - 09-03-2017 00:54] EventStatus - Console Event, isDisabled - True	2017-03-09 06:06:32Z	4186762777903
+I-vigil.vshost.exe	Information	0	09/03/2017 12:04:03 : Starting Ivigil Client Application.....DateTime :03/09/2017 12:04:03.009 PM	2017-03-09 06:34:03Z	4191749310539
+I-vigil.vshost.exe	Information	0	09/03/2017 12:04:08 : Server TimeZone..=Central Standard Time	2017-03-09 06:34:08Z	4191765435268
+I-vigil.vshost.exe	Information	0	09/03/2017 12:04:19 : Initializing CameraControl StartTime.. DateTime :03/09/2017 12:04:19.992 PM	2017-03-09 06:34:19Z	4191800554495
+I-vigil.vshost.exe	Information	0	09/03/2017 12:04:20 : Initializing CameraControl EndTime.. DateTime :03/09/2017 12:04:20.012 PM	2017-03-09 06:34:20Z	4191800613039
+I-vigil.vshost.exe	Information	0	09/03/2017 12:04:20 : Initializing CameraControl StartTime.. DateTime :03/09/2017 12:04:20.683 PM	2017-03-09 06:34:20Z	4191802644110
+I-vigil.vshost.exe	Information	0	09/03/2017 12:04:20 : Initializing CameraControl EndTime.. DateTime :03/09/2017 12:04:20.688 PM	2017-03-09 06:34:20Z	4191802658688
+I-vigil.vshost.exe	Information	0	09/03/2017 12:04:42 : Calendar Event for Pro-Vigil Houston Office houston-branch
+Subject - Site has been disarmed for 720 minutes - [08-03-2017 12:54 - 09-03-2017 00:54] EventStatus - Console Event, isDisabled - True	2017-03-09 06:34:42Z	4191867557754
+I-vigil.vshost.exe	Information	0	09/03/2017 12:19:43 : Calendar Event for Pro-Vigil Houston Office houston-branch
+Subject - Site has been disarmed for 720 minutes - [08-03-2017 12:54 - 09-03-2017 00:54] EventStatus - Console Event, isDisabled - True	2017-03-09 06:49:43Z	4194589832097
+I-vigil.vshost.exe	Information	0	09/03/2017 12:23:34 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 06:53:34Z	4195288430310
+I-vigil.vshost.exe	Information	0	09/03/2017 12:24:02 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=setForeGroundAnalysis&cameraid=Camera1&fgAnalysis={"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}
+Response - {"status":"success"}	2017-03-09 06:54:02Z	4195371178811
+I-vigil.vshost.exe	Information	0	09/03/2017 12:32:15 : Starting Ivigil Client Application.....DateTime :03/09/2017 12:32:15.563 PM	2017-03-09 07:02:15Z	4196861414216
+I-vigil.vshost.exe	Information	0	09/03/2017 12:32:19 : Server TimeZone..=Central Standard Time	2017-03-09 07:02:19Z	4196873643836
+I-vigil.vshost.exe	Information	0	09/03/2017 12:32:31 : Initializing CameraControl StartTime.. DateTime :03/09/2017 12:32:31.459 PM	2017-03-09 07:02:31Z	4196909373302
+I-vigil.vshost.exe	Information	0	09/03/2017 12:32:31 : Initializing CameraControl EndTime.. DateTime :03/09/2017 12:32:31.478 PM	2017-03-09 07:02:31Z	4196909430155
+I-vigil.vshost.exe	Information	0	09/03/2017 12:32:32 : Initializing CameraControl StartTime.. DateTime :03/09/2017 12:32:32.077 PM	2017-03-09 07:02:32Z	4196911239462
+I-vigil.vshost.exe	Information	0	09/03/2017 12:32:32 : Initializing CameraControl EndTime.. DateTime :03/09/2017 12:32:32.082 PM	2017-03-09 07:02:32Z	4196911252857
+I-vigil.vshost.exe	Information	0	09/03/2017 12:32:53 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 07:02:53Z	4196976248399
+I-vigil.vshost.exe	Information	0	09/03/2017 12:37:55 : 
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request)
+   at I_vigil.ProvigilService.ProvigilServiceClient.I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7962
+   at I_vigil.ProvigilService.ProvigilServiceClient.getOutputStatus(String alarmId) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7968
+   at I_vigil.Services.IvigilService.GetOutputStatus(String alarmName) in D:\work\I-vigil\I-vigil\Services\IvigilService.cs:line 629
+   at I_vigil.MainWindow.SyncOutputStatus() in D:\work\I-vigil\I-vigil\Main.xaml.cs:line 569	2017-03-09 07:07:55Z	4197889200080
+I-vigil.vshost.exe	Information	0	09/03/2017 12:50:18 : Exception In  MotionAnalytics_MotionAnalysis --> ShowCamera..Value cannot be null.
+Parameter name: s	2017-03-09 07:20:18Z	4200133603467
+I-vigil.vshost.exe	Information	0	09/03/2017 12:50:20 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 07:20:21Z	4200140485567
+I-vigil.vshost.exe	Information	0	09/03/2017 12:59:08 : Starting Ivigil Client Application.....DateTime :03/09/2017 12:59:08.924 PM	2017-03-09 07:29:08Z	4201734324339
+I-vigil.vshost.exe	Information	0	09/03/2017 12:59:12 : Server TimeZone..=Central Standard Time	2017-03-09 07:29:12Z	4201746019641
+I-vigil.vshost.exe	Information	0	09/03/2017 12:59:24 : Initializing CameraControl StartTime.. DateTime :03/09/2017 12:59:24.850 PM	2017-03-09 07:29:24Z	4201782375357
+I-vigil.vshost.exe	Information	0	09/03/2017 12:59:24 : Initializing CameraControl EndTime.. DateTime :03/09/2017 12:59:24.870 PM	2017-03-09 07:29:24Z	4201782435250
+I-vigil.vshost.exe	Information	0	09/03/2017 12:59:25 : Initializing CameraControl StartTime.. DateTime :03/09/2017 12:59:25.450 PM	2017-03-09 07:29:25Z	4201784188094
+I-vigil.vshost.exe	Information	0	09/03/2017 12:59:25 : Initializing CameraControl EndTime.. DateTime :03/09/2017 12:59:25.455 PM	2017-03-09 07:29:25Z	4201784203077
+I-vigil.vshost.exe	Information	0	09/03/2017 12:59:47 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 07:29:47Z	4201849344696
+I-vigil.vshost.exe	Information	0	09/03/2017 13:06:09 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}	2017-03-09 07:36:09Z	4203005472588
+I-vigil.vshost.exe	Information	0	09/03/2017 13:13:09 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera10
+Response - {"foreGroundAnalysis":""}	2017-03-09 07:43:09Z	4204271898680
+I-vigil.vshost.exe	Information	0	09/03/2017 13:14:58 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 07:45:06Z	4204626918447
+I-vigil.vshost.exe	Information	0	09/03/2017 13:15:57 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera136
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 07:45:57Z	4204781139600
+I-vigil.vshost.exe	Information	0	09/03/2017 13:25:24 : Starting Ivigil Client Application.....DateTime :03/09/2017 01:25:24.607 PM	2017-03-09 07:55:24Z	4206493436394
+I-vigil.vshost.exe	Information	0	09/03/2017 13:25:28 : Server TimeZone..=Central Standard Time	2017-03-09 07:55:28Z	4206505465954
+I-vigil.vshost.exe	Information	0	09/03/2017 13:25:39 : Initializing CameraControl StartTime.. DateTime :03/09/2017 01:25:39.605 PM	2017-03-09 07:55:39Z	4206538682105
+I-vigil.vshost.exe	Information	0	09/03/2017 13:25:39 : Initializing CameraControl EndTime.. DateTime :03/09/2017 01:25:39.624 PM	2017-03-09 07:55:39Z	4206538740863
+I-vigil.vshost.exe	Information	0	09/03/2017 13:25:40 : Initializing CameraControl StartTime.. DateTime :03/09/2017 01:25:40.210 PM	2017-03-09 07:55:40Z	4206540510904
+I-vigil.vshost.exe	Information	0	09/03/2017 13:25:40 : Initializing CameraControl EndTime.. DateTime :03/09/2017 01:25:40.215 PM	2017-03-09 07:55:40Z	4206540524607
+I-vigil.vshost.exe	Information	0	09/03/2017 13:26:01 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 07:56:01Z	4206605626226
+I-vigil.vshost.exe	Information	0	09/03/2017 13:27:03 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}	2017-03-09 07:57:03Z	4206791589416
+I-vigil.vshost.exe	Information	0	09/03/2017 13:42:16 : Starting Ivigil Client Application.....DateTime :03/09/2017 01:42:16.304 PM	2017-03-09 08:12:16Z	4209549111541
+I-vigil.vshost.exe	Information	0	09/03/2017 13:42:20 : Server TimeZone..=Central Standard Time	2017-03-09 08:12:20Z	4209560972769
+I-vigil.vshost.exe	Information	0	09/03/2017 13:42:35 : Initializing CameraControl StartTime.. DateTime :03/09/2017 01:42:35.204 PM	2017-03-09 08:12:35Z	4209606145149
+I-vigil.vshost.exe	Information	0	09/03/2017 13:42:35 : Initializing CameraControl EndTime.. DateTime :03/09/2017 01:42:35.224 PM	2017-03-09 08:12:35Z	4209606203353
+I-vigil.vshost.exe	Information	0	09/03/2017 13:42:35 : Initializing CameraControl StartTime.. DateTime :03/09/2017 01:42:35.831 PM	2017-03-09 08:12:35Z	4209608038568
+I-vigil.vshost.exe	Information	0	09/03/2017 13:42:35 : Initializing CameraControl EndTime.. DateTime :03/09/2017 01:42:35.836 PM	2017-03-09 08:12:35Z	4209608053028
+I-vigil.vshost.exe	Information	0	09/03/2017 13:42:57 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 08:12:57Z	4209673187809
+I-vigil.vshost.exe	Information	0	09/03/2017 13:43:47 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}	2017-03-09 08:13:47Z	4209824531294
+I-vigil.vshost.exe	Information	0	09/03/2017 13:44:39 : Starting Ivigil Client Application.....DateTime :03/09/2017 01:44:39.288 PM	2017-03-09 08:14:39Z	4209980973137
+I-vigil.vshost.exe	Information	0	09/03/2017 13:44:43 : Server TimeZone..=Central Standard Time	2017-03-09 08:14:43Z	4209992591082
+I-vigil.vshost.exe	Information	0	09/03/2017 13:44:53 : Initializing CameraControl StartTime.. DateTime :03/09/2017 01:44:53.832 PM	2017-03-09 08:14:53Z	4210024851429
+I-vigil.vshost.exe	Information	0	09/03/2017 13:44:53 : Initializing CameraControl EndTime.. DateTime :03/09/2017 01:44:53.852 PM	2017-03-09 08:14:53Z	4210024913327
+I-vigil.vshost.exe	Information	0	09/03/2017 13:44:54 : Initializing CameraControl StartTime.. DateTime :03/09/2017 01:44:54.418 PM	2017-03-09 08:14:54Z	4210026620479
+I-vigil.vshost.exe	Information	0	09/03/2017 13:44:54 : Initializing CameraControl EndTime.. DateTime :03/09/2017 01:44:54.422 PM	2017-03-09 08:14:54Z	4210026635204
+I-vigil.vshost.exe	Information	0	09/03/2017 13:45:15 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 08:15:15Z	4210091587165
+I-vigil.vshost.exe	Information	0	09/03/2017 13:45:44 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}	2017-03-09 08:15:44Z	4210176854335
+I-vigil.vshost.exe	Information	0	09/03/2017 13:50:13 : Starting Ivigil Client Application.....DateTime :03/09/2017 01:50:13.329 PM	2017-03-09 08:20:13Z	4210989893440
+I-vigil.vshost.exe	Information	0	09/03/2017 13:50:17 : Server TimeZone..=Central Standard Time	2017-03-09 08:20:17Z	4211001842736
+I-vigil.vshost.exe	Information	0	09/03/2017 13:50:26 : Initializing CameraControl StartTime.. DateTime :03/09/2017 01:50:26.627 PM	2017-03-09 08:20:26Z	4211030005161
+I-vigil.vshost.exe	Information	0	09/03/2017 13:50:26 : Initializing CameraControl EndTime.. DateTime :03/09/2017 01:50:26.649 PM	2017-03-09 08:20:26Z	4211030093744
+I-vigil.vshost.exe	Information	0	09/03/2017 13:50:27 : Initializing CameraControl StartTime.. DateTime :03/09/2017 01:50:27.286 PM	2017-03-09 08:20:27Z	4211031995201
+I-vigil.vshost.exe	Information	0	09/03/2017 13:50:27 : Initializing CameraControl EndTime.. DateTime :03/09/2017 01:50:27.291 PM	2017-03-09 08:20:27Z	4211032015618
+I-vigil.vshost.exe	Information	0	09/03/2017 13:50:48 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 08:20:48Z	4211096881324
+I-vigil.vshost.exe	Information	0	09/03/2017 13:51:34 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}	2017-03-09 08:21:34Z	4211235418278
+I-vigil.vshost.exe	Information	0	09/03/2017 13:53:15 : Starting Ivigil Client Application.....DateTime :03/09/2017 01:53:15.641 PM	2017-03-09 08:23:15Z	4211540539726
+I-vigil.vshost.exe	Information	0	09/03/2017 13:53:19 : Server TimeZone..=Central Standard Time	2017-03-09 08:23:19Z	4211552182348
+I-vigil.vshost.exe	Information	0	09/03/2017 13:53:28 : Initializing CameraControl StartTime.. DateTime :03/09/2017 01:53:28.058 PM	2017-03-09 08:23:28Z	4211577991186
+I-vigil.vshost.exe	Information	0	09/03/2017 13:53:28 : Initializing CameraControl EndTime.. DateTime :03/09/2017 01:53:28.077 PM	2017-03-09 08:23:28Z	4211578049204
+I-vigil.vshost.exe	Information	0	09/03/2017 13:53:28 : Initializing CameraControl StartTime.. DateTime :03/09/2017 01:53:28.659 PM	2017-03-09 08:23:28Z	4211579808119
+I-vigil.vshost.exe	Information	0	09/03/2017 13:53:28 : Initializing CameraControl EndTime.. DateTime :03/09/2017 01:53:28.665 PM	2017-03-09 08:23:28Z	4211579822243
+I-vigil.vshost.exe	Information	0	09/03/2017 13:53:50 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 08:23:50Z	4211645029097
+I-vigil.vshost.exe	Information	0	09/03/2017 13:54:23 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}	2017-03-09 08:24:23Z	4211744437866
+I-vigil.vshost.exe	Information	0	09/03/2017 13:54:44 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}	2017-03-09 08:24:44Z	4211810182271
+I-vigil.vshost.exe	Information	0	09/03/2017 13:56:08 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}	2017-03-09 08:26:08Z	4212062006958
+I-vigil.vshost.exe	Information	0	09/03/2017 13:56:32 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}	2017-03-09 08:26:32Z	4212135995145
+I-vigil.vshost.exe	Information	0	09/03/2017 13:57:32 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}	2017-03-09 08:27:32Z	4212314842251
+I-vigil.vshost.exe	Information	0	09/03/2017 13:57:52 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera115
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 08:27:52Z	4212376067468
+I-vigil.vshost.exe	Information	0	09/03/2017 14:00:28 : Starting Ivigil Client Application.....DateTime :03/09/2017 02:00:28.081 PM	2017-03-09 08:30:28Z	4212846662069
+I-vigil.vshost.exe	Information	0	09/03/2017 14:00:32 : Server TimeZone..=Central Standard Time	2017-03-09 08:30:32Z	4212858605457
+I-vigil.vshost.exe	Information	0	09/03/2017 14:00:40 : Initializing CameraControl StartTime.. DateTime :03/09/2017 02:00:40.685 PM	2017-03-09 08:30:40Z	4212884677790
+I-vigil.vshost.exe	Information	0	09/03/2017 14:00:40 : Initializing CameraControl EndTime.. DateTime :03/09/2017 02:00:40.731 PM	2017-03-09 08:30:40Z	4212884814139
+I-vigil.vshost.exe	Information	0	09/03/2017 14:00:41 : Initializing CameraControl StartTime.. DateTime :03/09/2017 02:00:41.288 PM	2017-03-09 08:30:41Z	4212886496654
+I-vigil.vshost.exe	Information	0	09/03/2017 14:00:41 : Initializing CameraControl EndTime.. DateTime :03/09/2017 02:00:41.292 PM	2017-03-09 08:30:41Z	4212886510388
+I-vigil.vshost.exe	Information	0	09/03/2017 14:01:02 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 08:31:02Z	4212951536176
+I-vigil.vshost.exe	Information	0	09/03/2017 14:16:03 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 08:46:03Z	4215673401648
+I-vigil.vshost.exe	Information	0	09/03/2017 14:31:03 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 09:01:03Z	4218390950118
+I-vigil.vshost.exe	Information	0	09/03/2017 14:46:03 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 09:16:03Z	4221109217779
+I-vigil.vshost.exe	Information	0	09/03/2017 14:51:28 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}	2017-03-09 09:21:28Z	4222089278167
+I-vigil.vshost.exe	Information	0	09/03/2017 14:53:15 : Starting Ivigil Client Application.....DateTime :03/09/2017 02:53:15.926 PM	2017-03-09 09:23:15Z	4222414662725
+I-vigil.vshost.exe	Information	0	09/03/2017 14:53:20 : Server TimeZone..=Central Standard Time	2017-03-09 09:23:20Z	4222426923216
+I-vigil.vshost.exe	Information	0	09/03/2017 14:53:30 : Initializing CameraControl StartTime.. DateTime :03/09/2017 02:53:30.746 PM	2017-03-09 09:23:30Z	4222459364525
+I-vigil.vshost.exe	Information	0	09/03/2017 14:53:30 : Initializing CameraControl EndTime.. DateTime :03/09/2017 02:53:30.767 PM	2017-03-09 09:23:30Z	4222459428010
+I-vigil.vshost.exe	Information	0	09/03/2017 14:53:31 : Initializing CameraControl StartTime.. DateTime :03/09/2017 02:53:31.404 PM	2017-03-09 09:23:31Z	4222461349472
+I-vigil.vshost.exe	Information	0	09/03/2017 14:53:31 : Initializing CameraControl EndTime.. DateTime :03/09/2017 02:53:31.408 PM	2017-03-09 09:23:31Z	4222461362893
+I-vigil.vshost.exe	Information	0	09/03/2017 14:53:52 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 09:23:52Z	4222526307210
+I-vigil.vshost.exe	Information	0	09/03/2017 14:59:31 : 
+Server stack trace: 
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request)
+   at I_vigil.ProvigilService.ProvigilServiceClient.I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7962
+   at I_vigil.ProvigilService.ProvigilServiceClient.getOutputStatus(String alarmId) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7968
+   at I_vigil.Services.IvigilService.GetOutputStatus(String alarmName) in D:\work\I-vigil\I-vigil\Services\IvigilService.cs:line 629
+   at I_vigil.MainWindow.SyncOutputStatus() in D:\work\I-vigil\I-vigil\Main.xaml.cs:line 569	2017-03-09 09:29:31Z	4223549331461
+I-vigil.vshost.exe	Information	0	09/03/2017 14:59:31 : 
+Server stack trace: 
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request)
+   at I_vigil.ProvigilService.ProvigilServiceClient.I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7962
+   at I_vigil.ProvigilService.ProvigilServiceClient.getOutputStatus(String alarmId) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7968
+   at I_vigil.Services.IvigilService.GetOutputStatus(String alarmName) in D:\work\I-vigil\I-vigil\Services\IvigilService.cs:line 629
+   at I_vigil.MainWindow.SyncOutputStatus() in D:\work\I-vigil\I-vigil\Main.xaml.cs:line 569	2017-03-09 09:29:31Z	4223549337023
+I-vigil.vshost.exe	Information	0	09/03/2017 15:03:43 : Starting Ivigil Client Application.....DateTime :03/09/2017 03:03:43.860 PM	2017-03-09 09:33:43Z	4224311238363
+I-vigil.vshost.exe	Information	0	09/03/2017 15:03:47 : Server TimeZone..=Central Standard Time	2017-03-09 09:33:47Z	4224322786207
+I-vigil.vshost.exe	Information	0	09/03/2017 15:03:56 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:03:56.769 PM	2017-03-09 09:33:56Z	4224350172959
+I-vigil.vshost.exe	Information	0	09/03/2017 15:03:56 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:03:56.829 PM	2017-03-09 09:33:56Z	4224350350325
+I-vigil.vshost.exe	Information	0	09/03/2017 15:03:57 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:03:57.423 PM	2017-03-09 09:33:57Z	4224352147907
+I-vigil.vshost.exe	Information	0	09/03/2017 15:03:57 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:03:57.429 PM	2017-03-09 09:33:57Z	4224352161248
+I-vigil.vshost.exe	Information	0	09/03/2017 15:04:19 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 09:34:19Z	4224417317458
+I-vigil.vshost.exe	Information	0	09/03/2017 15:05:05 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}	2017-03-09 09:35:05Z	4224558791758
+I-vigil.vshost.exe	Information	0	09/03/2017 15:21:33 : Starting Ivigil Client Application.....DateTime :03/09/2017 03:21:33.524 PM	2017-03-09 09:51:33Z	4227541989766
+I-vigil.vshost.exe	Information	0	09/03/2017 15:21:37 : Server TimeZone..=Central Standard Time	2017-03-09 09:51:37Z	4227553767465
+I-vigil.vshost.exe	Information	0	09/03/2017 15:21:45 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:21:45.889 PM	2017-03-09 09:51:45Z	4227579286093
+I-vigil.vshost.exe	Information	0	09/03/2017 15:21:45 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:21:45.916 PM	2017-03-09 09:51:45Z	4227579369533
+I-vigil.vshost.exe	Information	0	09/03/2017 15:21:46 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:21:46.488 PM	2017-03-09 09:51:46Z	4227581094757
+I-vigil.vshost.exe	Information	0	09/03/2017 15:21:46 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:21:46.493 PM	2017-03-09 09:51:46Z	4227581109408
+I-vigil.vshost.exe	Information	0	09/03/2017 15:22:08 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 09:52:08Z	4227646232045
+I-vigil.vshost.exe	Information	0	09/03/2017 15:33:10 : Starting Ivigil Client Application.....DateTime :03/09/2017 03:33:10.962 PM	2017-03-09 10:03:10Z	4229648491384
+I-vigil.vshost.exe	Information	0	09/03/2017 15:33:15 : Server TimeZone..=Central Standard Time	2017-03-09 10:03:15Z	4229660968128
+I-vigil.vshost.exe	Information	0	09/03/2017 15:33:25 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:33:25.476 PM	2017-03-09 10:03:25Z	4229692283005
+I-vigil.vshost.exe	Information	0	09/03/2017 15:33:25 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:33:25.500 PM	2017-03-09 10:03:25Z	4229692355370
+I-vigil.vshost.exe	Information	0	09/03/2017 15:33:26 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:33:26.122 PM	2017-03-09 10:03:26Z	4229694233375
+I-vigil.vshost.exe	Information	0	09/03/2017 15:33:26 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:33:26.127 PM	2017-03-09 10:03:26Z	4229694247374
+I-vigil.vshost.exe	Information	0	09/03/2017 15:33:47 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 10:03:47Z	4229760123253
+I-vigil.vshost.exe	Information	0	09/03/2017 15:36:08 : Starting Ivigil Client Application.....DateTime :03/09/2017 03:36:08.586 PM	2017-03-09 10:06:08Z	4230184984798
+I-vigil.vshost.exe	Information	0	09/03/2017 15:36:12 : Server TimeZone..=Central Standard Time	2017-03-09 10:06:12Z	4230196974778
+I-vigil.vshost.exe	Information	0	09/03/2017 15:36:30 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:36:30.883 PM	2017-03-09 10:06:30Z	4230252275357
+I-vigil.vshost.exe	Information	0	09/03/2017 15:36:30 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:36:30.902 PM	2017-03-09 10:06:30Z	4230252334856
+I-vigil.vshost.exe	Information	0	09/03/2017 15:36:32 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:36:32.343 PM	2017-03-09 10:06:32Z	4230256685703
+I-vigil.vshost.exe	Information	0	09/03/2017 15:36:32 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:36:32.348 PM	2017-03-09 10:06:32Z	4230256702451
+I-vigil.vshost.exe	Information	0	09/03/2017 15:36:53 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 10:06:53Z	4230322037814
+I-vigil.vshost.exe	Information	0	09/03/2017 15:39:00 : Starting Ivigil Client Application.....DateTime :03/09/2017 03:39:00.754 PM	2017-03-09 10:09:00Z	4230704997799
+I-vigil.vshost.exe	Information	0	09/03/2017 15:39:05 : Server TimeZone..=Central Standard Time	2017-03-09 10:09:05Z	4230718167986
+I-vigil.vshost.exe	Information	0	09/03/2017 15:39:22 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:39:22.147 PM	2017-03-09 10:09:22Z	4230769551059
+I-vigil.vshost.exe	Information	0	09/03/2017 15:39:22 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:39:22.173 PM	2017-03-09 10:09:22Z	4230769628672
+I-vigil.vshost.exe	Information	0	09/03/2017 15:39:22 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:39:22.794 PM	2017-03-09 10:09:22Z	4230771505161
+I-vigil.vshost.exe	Information	0	09/03/2017 15:39:22 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:39:22.798 PM	2017-03-09 10:09:22Z	4230771524074
+I-vigil.vshost.exe	Information	0	09/03/2017 15:39:44 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 10:09:44Z	4230836955035
+I-vigil.vshost.exe	Information	0	09/03/2017 15:48:20 : Starting Ivigil Client Application.....DateTime :03/09/2017 03:48:20.708 PM	2017-03-09 10:18:20Z	4232396246538
+I-vigil.vshost.exe	Information	0	09/03/2017 15:48:25 : Server TimeZone..=Central Standard Time	2017-03-09 10:18:25Z	4232409546459
+I-vigil.vshost.exe	Information	0	09/03/2017 15:48:47 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:48:47.586 PM	2017-03-09 10:18:47Z	4232477374833
+I-vigil.vshost.exe	Information	0	09/03/2017 15:48:47 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:48:47.605 PM	2017-03-09 10:18:47Z	4232477431791
+I-vigil.vshost.exe	Information	0	09/03/2017 15:48:48 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:48:48.181 PM	2017-03-09 10:18:48Z	4232479175268
+I-vigil.vshost.exe	Information	0	09/03/2017 15:48:48 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:48:48.186 PM	2017-03-09 10:18:48Z	4232479189532
+I-vigil.vshost.exe	Information	0	09/03/2017 15:49:09 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 10:19:09Z	4232544345718
+I-vigil.vshost.exe	Information	0	09/03/2017 15:56:42 : Starting Ivigil Client Application.....DateTime :03/09/2017 03:56:42.249 PM	2017-03-09 10:26:42Z	4233911183992
+I-vigil.vshost.exe	Information	0	09/03/2017 15:56:46 : Server TimeZone..=Central Standard Time	2017-03-09 10:26:46Z	4233923716826
+I-vigil.vshost.exe	Information	0	09/03/2017 15:57:05 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:57:05.795 PM	2017-03-09 10:27:05Z	4233982137157
+I-vigil.vshost.exe	Information	0	09/03/2017 15:57:05 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:57:05.817 PM	2017-03-09 10:27:05Z	4233982203252
+I-vigil.vshost.exe	Information	0	09/03/2017 15:57:06 : Initializing CameraControl StartTime.. DateTime :03/09/2017 03:57:06.377 PM	2017-03-09 10:27:06Z	4233983899672
+I-vigil.vshost.exe	Information	0	09/03/2017 15:57:06 : Initializing CameraControl EndTime.. DateTime :03/09/2017 03:57:06.382 PM	2017-03-09 10:27:06Z	4233983914233
+I-vigil.vshost.exe	Information	0	09/03/2017 15:57:27 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 10:27:27Z	4234049046723
+I-vigil.vshost.exe	Information	0	09/03/2017 16:05:18 : Starting Ivigil Client Application.....DateTime :03/09/2017 04:05:18.724 PM	2017-03-09 10:35:18Z	4235471009280
+I-vigil.vshost.exe	Information	0	09/03/2017 16:05:22 : Server TimeZone..=Central Standard Time	2017-03-09 10:35:22Z	4235482552527
+I-vigil.vshost.exe	Information	0	09/03/2017 16:05:35 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:05:35.717 PM	2017-03-09 10:35:35Z	4235522282126
+I-vigil.vshost.exe	Information	0	09/03/2017 16:05:35 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:05:35.738 PM	2017-03-09 10:35:35Z	4235522344365
+I-vigil.vshost.exe	Information	0	09/03/2017 16:05:36 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:05:36.344 PM	2017-03-09 10:35:36Z	4235524175195
+I-vigil.vshost.exe	Information	0	09/03/2017 16:05:36 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:05:36.349 PM	2017-03-09 10:35:36Z	4235524189088
+I-vigil.vshost.exe	Information	0	09/03/2017 16:05:58 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 10:35:58Z	4235590138718
+I-vigil.vshost.exe	Information	0	09/03/2017 16:09:19 : Starting Ivigil Client Application.....DateTime :03/09/2017 04:09:19.358 PM	2017-03-09 10:39:19Z	4236197807973
+I-vigil.vshost.exe	Information	0	09/03/2017 16:09:23 : Server TimeZone..=Central Standard Time	2017-03-09 10:39:23Z	4236209166548
+I-vigil.vshost.exe	Information	0	09/03/2017 16:09:33 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:09:33.684 PM	2017-03-09 10:39:33Z	4236241025950
+I-vigil.vshost.exe	Information	0	09/03/2017 16:09:33 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:09:33.704 PM	2017-03-09 10:39:33Z	4236241086158
+I-vigil.vshost.exe	Information	0	09/03/2017 16:09:34 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:09:34.289 PM	2017-03-09 10:39:34Z	4236242850775
+I-vigil.vshost.exe	Information	0	09/03/2017 16:09:34 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:09:34.294 PM	2017-03-09 10:39:34Z	4236242865346
+I-vigil.vshost.exe	Information	0	09/03/2017 16:09:55 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 10:39:55Z	4236307701378
+I-vigil.vshost.exe	Information	0	09/03/2017 16:11:22 : Exception In MaskAreaSettings --> cmbCameraName_SelectionChanged...Object reference not set to an instance of an object.	2017-03-09 10:41:22Z	4236569570226
+I-vigil.vshost.exe	Information	0	09/03/2017 16:11:27 : Exception In MaskAreaSettings --> cmbCameraName_SelectionChanged...Object reference not set to an instance of an object.	2017-03-09 10:41:27Z	4236584423708
+I-vigil.vshost.exe	Information	0	09/03/2017 16:18:01 : Starting Ivigil Client Application.....DateTime :03/09/2017 04:18:01.478 PM	2017-03-09 10:48:01Z	4237774790191
+I-vigil.vshost.exe	Information	0	09/03/2017 16:18:05 : Server TimeZone..=Central Standard Time	2017-03-09 10:48:05Z	4237786639371
+I-vigil.vshost.exe	Information	0	09/03/2017 16:18:14 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:18:14.608 PM	2017-03-09 10:48:14Z	4237814396389
+I-vigil.vshost.exe	Information	0	09/03/2017 16:18:14 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:18:14.627 PM	2017-03-09 10:48:14Z	4237814456347
+I-vigil.vshost.exe	Information	0	09/03/2017 16:18:15 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:18:15.207 PM	2017-03-09 10:48:15Z	4237816208087
+I-vigil.vshost.exe	Information	0	09/03/2017 16:18:15 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:18:15.213 PM	2017-03-09 10:48:15Z	4237816222030
+I-vigil.vshost.exe	Information	0	09/03/2017 16:18:36 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 10:48:36Z	4237881278681
+I-vigil.vshost.exe	Information	0	09/03/2017 16:24:20 : Starting Ivigil Client Application.....DateTime :03/09/2017 04:24:20.455 PM	2017-03-09 10:54:20Z	4238919432011
+I-vigil.vshost.exe	Information	0	09/03/2017 16:24:24 : Server TimeZone..=Central Standard Time	2017-03-09 10:54:24Z	4238931314296
+I-vigil.vshost.exe	Information	0	09/03/2017 16:24:32 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:24:32.695 PM	2017-03-09 10:54:32Z	4238956351883
+I-vigil.vshost.exe	Information	0	09/03/2017 16:24:32 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:24:32.716 PM	2017-03-09 10:54:32Z	4238956414195
+I-vigil.vshost.exe	Information	0	09/03/2017 16:24:33 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:24:33.315 PM	2017-03-09 10:54:33Z	4238958221527
+I-vigil.vshost.exe	Information	0	09/03/2017 16:24:33 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:24:33.320 PM	2017-03-09 10:54:33Z	4238958236153
+I-vigil.vshost.exe	Information	0	09/03/2017 16:24:54 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 10:54:54Z	4239023238212
+I-vigil.vshost.exe	Information	0	09/03/2017 16:27:00 : Starting Ivigil Client Application.....DateTime :03/09/2017 04:27:00.877 PM	2017-03-09 10:57:00Z	4239403965009
+I-vigil.vshost.exe	Information	0	09/03/2017 16:27:04 : Server TimeZone..=Central Standard Time	2017-03-09 10:57:04Z	4239415708157
+I-vigil.vshost.exe	Information	0	09/03/2017 16:27:12 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:27:12.940 PM	2017-03-09 10:57:12Z	4239440345902
+I-vigil.vshost.exe	Information	0	09/03/2017 16:27:12 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:27:12.962 PM	2017-03-09 10:57:12Z	4239440411063
+I-vigil.vshost.exe	Information	0	09/03/2017 16:27:13 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:27:13.553 PM	2017-03-09 10:57:13Z	4239442195714
+I-vigil.vshost.exe	Information	0	09/03/2017 16:27:13 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:27:13.557 PM	2017-03-09 10:57:13Z	4239442208444
+I-vigil.vshost.exe	Information	0	09/03/2017 16:27:35 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 10:57:35Z	4239507335141
+I-vigil.vshost.exe	Information	0	09/03/2017 16:31:13 : Starting Ivigil Client Application.....DateTime :03/09/2017 04:31:13.742 PM	2017-03-09 11:01:13Z	4240167701010
+I-vigil.vshost.exe	Information	0	09/03/2017 16:31:17 : Server TimeZone..=Central Standard Time	2017-03-09 11:01:17Z	4240179245644
+I-vigil.vshost.exe	Information	0	09/03/2017 16:31:25 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:31:25.784 PM	2017-03-09 11:01:25Z	4240204021369
+I-vigil.vshost.exe	Information	0	09/03/2017 16:31:25 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:31:25.804 PM	2017-03-09 11:01:25Z	4240204080716
+I-vigil.vshost.exe	Information	0	09/03/2017 16:31:26 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:31:26.418 PM	2017-03-09 11:01:26Z	4240205937704
+I-vigil.vshost.exe	Information	0	09/03/2017 16:31:26 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:31:26.423 PM	2017-03-09 11:01:26Z	4240205952209
+I-vigil.vshost.exe	Information	0	09/03/2017 16:31:47 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 11:01:47Z	4240270977109
+I-vigil.vshost.exe	Information	0	09/03/2017 16:35:44 : Starting Ivigil Client Application.....DateTime :03/09/2017 04:35:44.494 PM	2017-03-09 11:05:44Z	4240985470131
+I-vigil.vshost.exe	Information	0	09/03/2017 16:35:48 : Server TimeZone..=Central Standard Time	2017-03-09 11:05:48Z	4240997339664
+I-vigil.vshost.exe	Information	0	09/03/2017 16:35:57 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:35:57.056 PM	2017-03-09 11:05:57Z	4241023362937
+I-vigil.vshost.exe	Information	0	09/03/2017 16:35:57 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:35:57.079 PM	2017-03-09 11:05:57Z	4241023427662
+I-vigil.vshost.exe	Information	0	09/03/2017 16:35:57 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:35:57.689 PM	2017-03-09 11:05:57Z	4241025271454
+I-vigil.vshost.exe	Information	0	09/03/2017 16:35:57 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:35:57.694 PM	2017-03-09 11:05:57Z	4241025284570
+I-vigil.vshost.exe	Information	0	09/03/2017 16:36:19 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 11:06:19Z	4241090246309
+I-vigil.vshost.exe	Information	0	09/03/2017 16:46:29 : Starting Ivigil Client Application.....DateTime :03/09/2017 04:46:29.696 PM	2017-03-09 11:16:29Z	4242934204148
+I-vigil.vshost.exe	Information	0	09/03/2017 16:46:34 : Server TimeZone..=Central Standard Time	2017-03-09 11:16:34Z	4242950156920
+I-vigil.vshost.exe	Information	0	09/03/2017 16:46:51 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:46:51.259 PM	2017-03-09 11:16:51Z	4242999277355
+I-vigil.vshost.exe	Information	0	09/03/2017 16:46:51 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:46:51.281 PM	2017-03-09 11:16:51Z	4242999346759
+I-vigil.vshost.exe	Information	0	09/03/2017 16:46:51 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:46:51.900 PM	2017-03-09 11:16:51Z	4243001214321
+I-vigil.vshost.exe	Information	0	09/03/2017 16:46:51 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:46:51.906 PM	2017-03-09 11:16:51Z	4243001231689
+I-vigil.vshost.exe	Information	0	09/03/2017 16:47:13 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 11:17:13Z	4243066254399
+I-vigil.vshost.exe	Information	0	09/03/2017 16:50:14 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera11
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 11:20:14Z	4243612920768
+I-vigil.vshost.exe	Information	0	09/03/2017 16:52:02 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera118
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 11:22:02Z	4243940409368
+I-vigil.vshost.exe	Information	0	09/03/2017 16:57:19 : Starting Ivigil Client Application.....DateTime :03/09/2017 04:57:19.544 PM	2017-03-09 11:27:19Z	4244896968901
+I-vigil.vshost.exe	Information	0	09/03/2017 16:57:24 : Server TimeZone..=Central Standard Time	2017-03-09 11:27:24Z	4244912753935
+I-vigil.vshost.exe	Information	0	09/03/2017 16:57:42 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:57:42.289 PM	2017-03-09 11:27:42Z	4244965620147
+I-vigil.vshost.exe	Information	0	09/03/2017 16:57:42 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:57:42.311 PM	2017-03-09 11:27:42Z	4244965683624
+I-vigil.vshost.exe	Information	0	09/03/2017 16:57:42 : Initializing CameraControl StartTime.. DateTime :03/09/2017 04:57:42.890 PM	2017-03-09 11:27:42Z	4244967432412
+I-vigil.vshost.exe	Information	0	09/03/2017 16:57:42 : Initializing CameraControl EndTime.. DateTime :03/09/2017 04:57:42.895 PM	2017-03-09 11:27:42Z	4244967447238
+I-vigil.vshost.exe	Information	0	09/03/2017 16:58:04 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 11:28:04Z	4245032440053
+I-vigil.vshost.exe	Information	0	09/03/2017 16:58:55 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera11
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 11:28:55Z	4245187103709
+I-vigil.vshost.exe	Information	0	09/03/2017 16:59:48 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera103
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 11:29:48Z	4245345824581
+I-vigil.vshost.exe	Information	0	09/03/2017 17:05:38 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera13
+Response - {"foreGroundAnalysis":""}	2017-03-09 11:35:38Z	4246403570392
+I-vigil.vshost.exe	Information	0	09/03/2017 17:05:57 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera148
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 11:35:57Z	4246462336100
+I-vigil.vshost.exe	Information	0	09/03/2017 17:08:36 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera179
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 11:38:36Z	4246942193496
+I-vigil.vshost.exe	Information	0	09/03/2017 17:13:05 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 11:43:05Z	4247754221925
+I-vigil.vshost.exe	Information	0	09/03/2017 17:13:27 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera130
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 11:43:27Z	4247819979604
+I-vigil.vshost.exe	Information	0	09/03/2017 17:14:15 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera147
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 11:44:15Z	4247964927971
+I-vigil.vshost.exe	Information	0	09/03/2017 17:23:12 : Exception In MaskAreaSettings --> GetWebString...Unable to connect to the remote server	2017-03-09 11:53:12Z	4249587256871
+I-vigil.vshost.exe	Information	0	09/03/2017 17:23:12 : Exception In  MotionAnalytics_FgAnalysis --> GetTagsUsingRest..Value cannot be null.
+Parameter name: s	2017-03-09 11:53:12Z	4249587291735
+I-vigil.vshost.exe	Information	0	09/03/2017 17:23:14 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera115
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 11:53:14Z	4249593832788
+I-vigil.vshost.exe	Information	0	09/03/2017 17:28:05 : RefreshCalendarEventTimeList - no calendar event list	2017-03-09 11:58:05Z	4250472628478
+I-vigil.vshost.exe	Information	0	09/03/2017 17:29:15 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera115
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 11:59:15Z	4250685136853
+I-vigil.vshost.exe	Information	0	09/03/2017 17:32:22 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera115
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 12:02:22Z	4251247529681
+I-vigil.vshost.exe	Information	0	09/03/2017 17:34:49 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera140
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 12:04:49Z	4251691487228
+I-vigil.vshost.exe	Information	0	09/03/2017 17:43:05 : Calendar Event for Chapman Construction - The Colony P183
+Subject - Site has been disarmed for 768 minutes - [09-03-2017 06:12 - 09-03-2017 19:00] EventStatus - Console Event, isDisabled - True	2017-03-09 12:13:05Z	4253191239406
+I-vigil.vshost.exe	Information	0	09/03/2017 17:58:05 : Calendar Event for Chapman Construction - The Colony P183
+Subject - Site has been disarmed for 768 minutes - [09-03-2017 06:12 - 09-03-2017 19:00] EventStatus - Console Event, isDisabled - True	2017-03-09 12:28:05Z	4255909911793
+I-vigil.vshost.exe	Information	0	09/03/2017 18:04:53 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera115
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 12:34:53Z	4257142778318
+I-vigil.vshost.exe	Information	0	09/03/2017 18:07:34 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera117
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 12:37:34Z	4257626323112
+I-vigil.vshost.exe	Information	0	09/03/2017 18:08:12 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera117
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 12:38:12Z	4257742756340
+I-vigil.vshost.exe	Information	0	09/03/2017 18:10:01 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera137
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 12:40:01Z	4258072405647
+I-vigil.vshost.exe	Information	0	09/03/2017 18:10:07 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera140
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 12:40:07Z	4258091020977
+I-vigil.vshost.exe	Information	0	09/03/2017 18:11:55 : Starting Ivigil Client Application.....DateTime :03/09/2017 06:11:55.055 PM	2017-03-09 12:41:55Z	4258414568941
+I-vigil.vshost.exe	Information	0	09/03/2017 18:11:58 : Server TimeZone..=Central Standard Time	2017-03-09 12:41:58Z	4258426365238
+I-vigil.vshost.exe	Information	0	09/03/2017 18:12:09 : Initializing CameraControl StartTime.. DateTime :03/09/2017 06:12:09.851 PM	2017-03-09 12:42:09Z	4258459209439
+I-vigil.vshost.exe	Information	0	09/03/2017 18:12:09 : Initializing CameraControl EndTime.. DateTime :03/09/2017 06:12:09.871 PM	2017-03-09 12:42:09Z	4258459268467
+I-vigil.vshost.exe	Information	0	09/03/2017 18:12:10 : Initializing CameraControl StartTime.. DateTime :03/09/2017 06:12:10.464 PM	2017-03-09 12:42:10Z	4258461061182
+I-vigil.vshost.exe	Information	0	09/03/2017 18:12:10 : Initializing CameraControl EndTime.. DateTime :03/09/2017 06:12:10.469 PM	2017-03-09 12:42:10Z	4258461074250
+I-vigil.vshost.exe	Information	0	09/03/2017 18:12:32 : Calendar Event for Chapman Construction - The Colony P183
+Subject - Site has been disarmed for 768 minutes - [09-03-2017 06:12 - 09-03-2017 19:00] EventStatus - Console Event, isDisabled - True	2017-03-09 12:42:32Z	4258526129146
+I-vigil.vshost.exe	Information	0	09/03/2017 18:13:58 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera111
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 12:43:58Z	4258788254705
+I-vigil.vshost.exe	Information	0	09/03/2017 18:14:14 : Exception In  MotionAnalytics_MotionAnalysis --> UpdateImageUI()..Attempted to read or write protected memory. This is often an indication that other memory is corrupt.	2017-03-09 12:44:14Z	4258836569623
+I-vigil.vshost.exe	Information	0	09/03/2017 18:14:15 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera143
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 12:44:15Z	4258837428380
+I-vigil.vshost.exe	Information	0	09/03/2017 18:14:18 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera18
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 12:44:18Z	4258847909188
+I-vigil.vshost.exe	Information	0	09/03/2017 18:16:36 : Starting Ivigil Client Application.....DateTime :03/09/2017 06:16:36.743 PM	2017-03-09 12:46:36Z	4259265366003
+I-vigil.vshost.exe	Information	0	09/03/2017 18:16:40 : Server TimeZone..=Central Standard Time	2017-03-09 12:46:40Z	4259277605765
+I-vigil.vshost.exe	Information	0	09/03/2017 18:16:51 : Initializing CameraControl StartTime.. DateTime :03/09/2017 06:16:51.185 PM	2017-03-09 12:46:51Z	4259308933267
+I-vigil.vshost.exe	Information	0	09/03/2017 18:16:51 : Initializing CameraControl EndTime.. DateTime :03/09/2017 06:16:51.204 PM	2017-03-09 12:46:51Z	4259308994035
+I-vigil.vshost.exe	Information	0	09/03/2017 18:16:51 : Initializing CameraControl StartTime.. DateTime :03/09/2017 06:16:51.781 PM	2017-03-09 12:46:51Z	4259310732923
+I-vigil.vshost.exe	Information	0	09/03/2017 18:16:51 : Initializing CameraControl EndTime.. DateTime :03/09/2017 06:16:51.785 PM	2017-03-09 12:46:51Z	4259310747045
+I-vigil.vshost.exe	Information	0	09/03/2017 18:17:13 : Calendar Event for Chapman Construction - The Colony P183
+Subject - Site has been disarmed for 768 minutes - [09-03-2017 06:12 - 09-03-2017 19:00] EventStatus - Console Event, isDisabled - True	2017-03-09 12:47:13Z	4259375670199
+I-vigil.vshost.exe	Information	0	09/03/2017 18:17:41 : CameraId - Camera25, eventTime - 2017-03-09 05:47:25	2017-03-09 12:47:41Z	4259462182444
+I-vigil.vshost.exe	Information	0	09/03/2017 18:18:10 : Escalate Event(Missed Escalation..	2017-03-09 12:48:10Z	4259548223695
+I-vigil.vshost.exe	Information	0	09/03/2017 18:18:10 : [Camera25] - Current Event - 09/03/2017 05:47:25, Allow Auto Escalation = False	2017-03-09 12:48:10Z	4259548255100
+I-vigil.vshost.exe	Information	0	09/03/2017 18:19:08 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera111
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 12:49:08Z	4259725038178
+I-vigil.vshost.exe	Information	0	09/03/2017 18:22:42 : Starting Ivigil Client Application.....DateTime :03/09/2017 06:22:42.276 PM	2017-03-09 12:52:42Z	4260369395484
+I-vigil.vshost.exe	Information	0	09/03/2017 18:22:46 : Server TimeZone..=Central Standard Time	2017-03-09 12:52:46Z	4260380636364
+I-vigil.vshost.exe	Information	0	09/03/2017 18:22:58 : Initializing CameraControl StartTime.. DateTime :03/09/2017 06:22:58.584 PM	2017-03-09 12:52:58Z	4260418608231
+I-vigil.vshost.exe	Information	0	09/03/2017 18:22:58 : Initializing CameraControl EndTime.. DateTime :03/09/2017 06:22:58.603 PM	2017-03-09 12:52:58Z	4260418665826
+I-vigil.vshost.exe	Information	0	09/03/2017 18:22:59 : Initializing CameraControl StartTime.. DateTime :03/09/2017 06:22:59.308 PM	2017-03-09 12:52:59Z	4260420795508
+I-vigil.vshost.exe	Information	0	09/03/2017 18:22:59 : Initializing CameraControl EndTime.. DateTime :03/09/2017 06:22:59.313 PM	2017-03-09 12:52:59Z	4260420809491
+I-vigil.vshost.exe	Information	0	09/03/2017 18:23:20 : Calendar Event for Chapman Construction - The Colony P183
+Subject - Site has been disarmed for 768 minutes - [09-03-2017 06:12 - 09-03-2017 19:00] EventStatus - Console Event, isDisabled - True	2017-03-09 12:53:20Z	4260485956185
+I-vigil.vshost.exe	Information	0	09/03/2017 18:23:44 : CameraId - Camera25, eventTime - 2017-03-09 05:51:56	2017-03-09 12:53:44Z	4260556921168
+I-vigil.vshost.exe	Information	0	09/03/2017 18:24:01 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera11
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 12:54:01Z	4260608475089
+I-vigil.vshost.exe	Information	0	09/03/2017 18:39:31 : Starting Ivigil Client Application.....DateTime :03/09/2017 06:39:31.601 PM	2017-03-09 13:09:31Z	4263417915334
+I-vigil.vshost.exe	Information	0	09/03/2017 18:39:35 : Server TimeZone..=Central Standard Time	2017-03-09 13:09:35Z	4263430264247
+I-vigil.vshost.exe	Information	0	09/03/2017 18:39:47 : Initializing CameraControl StartTime.. DateTime :03/09/2017 06:39:47.220 PM	2017-03-09 13:09:47Z	4263465039014
+I-vigil.vshost.exe	Information	0	09/03/2017 18:39:47 : Initializing CameraControl EndTime.. DateTime :03/09/2017 06:39:47.240 PM	2017-03-09 13:09:47Z	4263465099834
+I-vigil.vshost.exe	Information	0	09/03/2017 18:39:47 : Initializing CameraControl StartTime.. DateTime :03/09/2017 06:39:47.879 PM	2017-03-09 13:09:47Z	4263467029106
+I-vigil.vshost.exe	Information	0	09/03/2017 18:39:47 : Initializing CameraControl EndTime.. DateTime :03/09/2017 06:39:47.883 PM	2017-03-09 13:09:47Z	4263467043249
+I-vigil.vshost.exe	Information	0	09/03/2017 18:40:09 : Calendar Event for Chapman Construction - The Colony P183
+Subject - Site has been disarmed for 768 minutes - [09-03-2017 06:12 - 09-03-2017 19:00] EventStatus - Console Event, isDisabled - True	2017-03-09 13:10:09Z	4263532049536
+I-vigil.vshost.exe	Information	0	09/03/2017 18:41:23 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera111
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 13:11:23Z	4263756166699
+I-vigil.vshost.exe	Information	0	09/03/2017 18:58:34 : Starting Ivigil Client Application.....DateTime :03/09/2017 06:58:34.650 PM	2017-03-09 13:28:34Z	4266870327904
+I-vigil.vshost.exe	Information	0	09/03/2017 18:58:38 : Server TimeZone..=Central Standard Time	2017-03-09 13:28:38Z	4266881783544
+I-vigil.vshost.exe	Information	0	09/03/2017 18:58:51 : Initializing CameraControl StartTime.. DateTime :03/09/2017 06:58:51.798 PM	2017-03-09 13:28:51Z	4266922066680
+I-vigil.vshost.exe	Information	0	09/03/2017 18:58:51 : Initializing CameraControl EndTime.. DateTime :03/09/2017 06:58:51.819 PM	2017-03-09 13:28:51Z	4266922127832
+I-vigil.vshost.exe	Information	0	09/03/2017 18:58:52 : Initializing CameraControl StartTime.. DateTime :03/09/2017 06:58:52.397 PM	2017-03-09 13:28:52Z	4266923874791
+I-vigil.vshost.exe	Information	0	09/03/2017 18:58:52 : Initializing CameraControl EndTime.. DateTime :03/09/2017 06:58:52.403 PM	2017-03-09 13:28:52Z	4266923892839
+I-vigil.vshost.exe	Information	0	09/03/2017 18:59:13 : Calendar Event for Chapman Construction - The Colony P183
+Subject - Site has been disarmed for 768 minutes - [09-03-2017 06:12 - 09-03-2017 19:00] EventStatus - Console Event, isDisabled - True	2017-03-09 13:29:13Z	4266988832413
+I-vigil.vshost.exe	Information	0	09/03/2017 18:59:58 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera1
+Response - {"scale":5.0,"pdValue":1.0,"bucketSize":10.0,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":99,"fgAnalysischecked":false,"falseTags":["Animal, SpiderWeb","Rain / Snow (Bad Weather)"]}	2017-03-09 13:29:58Z	4267124875768
+I-vigil.vshost.exe	Information	0	09/03/2017 19:16:14 : 
+Server stack trace: 
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request)
+   at I_vigil.ProvigilService.ProvigilServiceClient.I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7962
+   at I_vigil.ProvigilService.ProvigilServiceClient.getOutputStatus(String alarmId) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7968
+   at I_vigil.Services.IvigilService.GetOutputStatus(String alarmName) in D:\work\I-vigil\I-vigil\Services\IvigilService.cs:line 629
+   at I_vigil.MainWindow.SyncOutputStatus() in D:\work\I-vigil\I-vigil\Main.xaml.cs:line 569	2017-03-09 13:46:14Z	4270071665706
+I-vigil.vshost.exe	Information	0	09/03/2017 19:16:30 : Calendar Event for Chapman Construction - The Colony P183
+Subject - Site has been disarmed for 768 minutes - [09-03-2017 06:12 - 09-03-2017 19:00] EventStatus - Console Event, isDisabled - True	2017-03-09 13:46:30Z	4270119316212
+I-vigil.vshost.exe	Information	0	09/03/2017 19:19:18 : 
+Server stack trace: 
+   at System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.ServiceModel.Channels.HttpInput.WebResponseHttpInput..ctor(HttpWebResponse httpWebResponse, IHttpTransportFactorySettings settings, ChannelBinding channelBinding)
+   at System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory factory, WebException responseException, ChannelBinding channelBinding)
+   at System.ServiceModel.Channels.HttpChannelFactory.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request)
+   at I_vigil.ProvigilService.ProvigilServiceClient.I_vigil.ProvigilService.ProvigilService.getOutputStatus(getOutputStatusRequest request) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7962
+   at I_vigil.ProvigilService.ProvigilServiceClient.getOutputStatus(String alarmId) in D:\work\I-vigil\I-vigil\Service References\ProvigilService\Reference.cs:line 7968
+   at I_vigil.Services.IvigilService.GetOutputStatus(String alarmName) in D:\work\I-vigil\I-vigil\Services\IvigilService.cs:line 629
+   at I_vigil.MainWindow.SyncOutputStatus() in D:\work\I-vigil\I-vigil\Main.xaml.cs:line 569	2017-03-09 13:49:18Z	4270627175552
+I-vigil.vshost.exe	Information	0	09/03/2017 19:26:03 : Starting Ivigil Client Application.....DateTime :03/09/2017 07:26:03.637 PM	2017-03-09 13:56:03Z	4271850837151
+I-vigil.vshost.exe	Information	0	09/03/2017 19:26:07 : Server TimeZone..=Central Standard Time	2017-03-09 13:56:07Z	4271862336264
+I-vigil.vshost.exe	Information	0	09/03/2017 19:26:18 : Initializing CameraControl StartTime.. DateTime :03/09/2017 07:26:18.103 PM	2017-03-09 13:56:18Z	4271894478650
+I-vigil.vshost.exe	Information	0	09/03/2017 19:26:18 : Initializing CameraControl EndTime.. DateTime :03/09/2017 07:26:18.126 PM	2017-03-09 13:56:18Z	4271894546050
+I-vigil.vshost.exe	Information	0	09/03/2017 19:26:18 : Initializing CameraControl StartTime.. DateTime :03/09/2017 07:26:18.705 PM	2017-03-09 13:56:18Z	4271896296587
+I-vigil.vshost.exe	Information	0	09/03/2017 19:26:18 : Initializing CameraControl EndTime.. DateTime :03/09/2017 07:26:18.710 PM	2017-03-09 13:56:18Z	4271896312277
+I-vigil.vshost.exe	Information	0	09/03/2017 19:26:40 : Calendar Event for Chapman Construction - The Colony P183
+Subject - Site has been disarmed for 768 minutes - [09-03-2017 06:12 - 09-03-2017 19:00] EventStatus - Console Event, isDisabled - True	2017-03-09 13:56:40Z	4271961211245
+I-vigil.vshost.exe	Information	0	09/03/2017 19:27:06 : CameraId - Camera17, eventTime - 2017-03-09 06:55:41	2017-03-09 13:57:06Z	4272040034600
+I-vigil.vshost.exe	Information	0	09/03/2017 19:27:48 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera103
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-09 13:57:48Z	4272167978619
+I-vigil.vshost.exe	Information	0	09/03/2017 19:29:22 : Starting Ivigil Client Application.....DateTime :03/09/2017 07:29:22.342 PM	2017-03-09 13:59:22Z	4272450990679
+I-vigil.vshost.exe	Information	0	09/03/2017 19:29:26 : Server TimeZone..=Central Standard Time	2017-03-09 13:59:26Z	4272462442405
+I-vigil.vshost.exe	Information	0	09/03/2017 19:29:33 : Initializing CameraControl StartTime.. DateTime :03/09/2017 07:29:33.593 PM	2017-03-09 13:59:33Z	4272484926275
+I-vigil.vshost.exe	Information	0	09/03/2017 19:29:33 : Initializing CameraControl EndTime.. DateTime :03/09/2017 07:29:33.613 PM	2017-03-09 13:59:33Z	4272484985936
+I-vigil.vshost.exe	Information	0	09/03/2017 19:29:34 : Initializing CameraControl StartTime.. DateTime :03/09/2017 07:29:34.190 PM	2017-03-09 13:59:34Z	4272486727784
+I-vigil.vshost.exe	Information	0	09/03/2017 19:29:34 : Initializing CameraControl EndTime.. DateTime :03/09/2017 07:29:34.195 PM	2017-03-09 13:59:34Z	4272486741097
+I-vigil.vshost.exe	Information	0	09/03/2017 19:29:55 : Calendar Event for Chapman Construction - The Colony P183
+Subject - Site has been disarmed for 768 minutes - [09-03-2017 06:12 - 09-03-2017 19:00] EventStatus - Console Event, isDisabled - True	2017-03-09 13:59:55Z	4272551545214
+I-vigil.vshost.exe	Information	0	09/03/2017 19:30:18 : CameraId - Camera17, eventTime - 2017-03-09 07:00:11	2017-03-09 14:00:18Z	4272620382951
+I-vigil.vshost.exe	Information	0	09/03/2017 19:30:41 : CameraId - Camera25, eventTime - 2017-03-09 07:00:39	2017-03-09 14:00:41Z	4272689166958
+I-vigil.vshost.exe	Information	0	09/03/2017 19:30:44 : Escalate Event(Missed Escalation..	2017-03-09 14:00:44Z	4272699511153
+I-vigil.vshost.exe	Information	0	09/03/2017 19:30:44 : [Camera17] - Current Event - 09/03/2017 07:00:11, Allow Auto Escalation = False	2017-03-09 14:00:44Z	4272699541225
+I-vigil.vshost.exe	Information	0	09/03/2017 19:30:58 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera10
+Response - {"foreGroundAnalysis":""}	2017-03-09 14:00:58Z	4272740056524

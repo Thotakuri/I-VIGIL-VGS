@@ -1,0 +1,14 @@
+﻿I-vigil.vshost.exe	Information	0	11/03/2017 13:15:30 : Starting Ivigil Client Application.....DateTime :03/11/2017 01:15:30.799 PM	2017-03-11 07:45:31Z	4726640520876
+I-vigil.vshost.exe	Information	0	11/03/2017 13:15:36 : Server TimeZone..=Central Standard Time	2017-03-11 07:45:36Z	4726657434813
+I-vigil.vshost.exe	Information	0	11/03/2017 13:15:47 : Initializing CameraControl StartTime.. DateTime :03/11/2017 01:15:47.985 PM	2017-03-11 07:45:47Z	4726690973024
+I-vigil.vshost.exe	Information	0	11/03/2017 13:15:48 : Initializing CameraControl EndTime.. DateTime :03/11/2017 01:15:48.015 PM	2017-03-11 07:45:48Z	4726691062368
+I-vigil.vshost.exe	Information	0	11/03/2017 13:15:48 : Initializing CameraControl StartTime.. DateTime :03/11/2017 01:15:48.659 PM	2017-03-11 07:45:48Z	4726693010473
+I-vigil.vshost.exe	Information	0	11/03/2017 13:15:48 : Initializing CameraControl EndTime.. DateTime :03/11/2017 01:15:48.664 PM	2017-03-11 07:45:48Z	4726693024949
+I-vigil.vshost.exe	Information	0	11/03/2017 13:16:10 : Calendar Event for Waterfleet LLC
+Subject - Site has been disarmed for 36 minutes - [10-03-2017 23:54 - 11-03-2017 00:30] EventStatus - Console Event, isDisabled - True	2017-03-11 07:46:10Z	4726759165322
+11/03/2017 13:16:34||CAMERA_DISCONNECT||Embrey Builders LLC-Riverstone MDX463||MDX463 Cam1||Connection lost
+11/03/2017 13:16:34||CAMERA_DISCONNECT||Embrey Builders LLC-Riverstone MDX463||MDX463 Cam2||Connection lost
+I-vigil.vshost.exe	Information	0	11/03/2017 13:18:47 : Url - http://aws0002.pro-vigil.info:8090/pro-vigil//CameraService?event=getForeGroundAnalysis&cameraid=Camera103
+Response - {"scale":5,"pdValue":1.0,"bucketSize":10,"pdf1":0.4,"pdf2":0.2,"pdf3":0.1,"timeOut":3600000,"falseTags":["Out of Bounds","Rain / Snow (Bad Weather)","Flapping,HangingObj","Animal, SpiderWeb"]}	2017-03-11 07:48:47Z	4727232765777
+I-vigil.vshost.exe	Information	0	11/03/2017 13:31:11 : Calendar Event for Waterfleet LLC
+Subject - Site has been disarmed for 36 minutes - [10-03-2017 23:54 - 11-03-2017 00:30] EventStatus - Console Event, isDisabled - True	2017-03-11 08:01:11Z	4729481065603
